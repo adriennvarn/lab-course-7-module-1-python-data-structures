@@ -9,6 +9,9 @@ def format_student_data(student):
     - Major
     such as: "ID: 10 | Name: Louis Medina | Major: Computer Science"
     """
+    # This is terrible using tuples for storing various types of data. A dictionary would be preferable.
+    # In more complex scenarios, it would be easy to lose track of which index belongs to which field.
+    # Named fields are preferable.
     return f"ID: {student[0]} | Name: {student[1]} | Major: {student[2]}"
 
 def display_students(student_list):

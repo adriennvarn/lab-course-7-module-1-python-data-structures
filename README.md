@@ -4,6 +4,14 @@ Lab for Flatiron SE-FND2-FT Module 1.
 
 README adapted from existing course README, removing instructions, as I would assume no one wants to complete a lesson I've already completed.
 
+#### Design Breakdown:
+- **Student list storage** using **tuples** and **lists**.
+- **Filtering capabilities** using **list comprehensions**.
+- **Memory-efficient data handling** with **generator expressions**.
+- **Tracking unique attributes** using **sets**.
+
+This structured approach ensures an **efficient, maintainable, and scalable** student data system.
+
 ## Setup Instructions
 
 ### Fork and Clone the Repository
@@ -32,11 +40,3 @@ To run the test suite, run:
 ```sh
 pytest
 ```
-
-#### Design Breakdown:
-- **Student list storage** using **tuples** and **lists**.
-- **Filtering capabilities** using **list comprehensions**.
-- **Memory-efficient data handling** with **generator expressions**.
-- **Tracking unique attributes** using **sets**.
-
-This structured approach ensures an **efficient, maintainable, and scalable** student data system.
